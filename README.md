@@ -1,6 +1,6 @@
 # Ohjelmistotekniikka harjoitustyö
 
-Olen tekemässä japanin hiragana-kirjoitusmerkkien harjoittelusovelluksen.
+Olen tekemässä *japaninkielen* hiragana-kirjoitusmerkkien harjoittelua varten sovelluksen, joka on koodattu pythonilla ja sen saa avattua **lokaalisti** koneelle komentoriviltä.
 
 ## Ohjelmointikieli
 
