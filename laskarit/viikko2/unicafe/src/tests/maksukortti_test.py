@@ -22,3 +22,6 @@ class TestMaksukortti(unittest.TestCase):
     def test_saldo_pysyy_samana_jos_rahaa_tarpeeksi(self):
         self.maksukortti.ota_rahaa(20000)
         self.assertEqual(self.maksukortti.ota_rahaa(20000), False)
+
+    def test_saldo_euroina(self):
+        self.assertEqual(self.maksukortti.saldo_euroina(), 10)
